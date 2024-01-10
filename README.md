@@ -9,7 +9,7 @@ Fork this repository to get the source project, a place holder for your IAC file
 
 For instructions on how to complete the workshop, refer to the parent repository, which can be found here:
 
-- [ACW-InfrastructureAsCode](https://github.com/AzureCloudWorkshops/ACW-InfrastructureAsCode)  
+- [ACW-InfrastructureAsCode](https://github.com/AzureCloudWorkshops/ACW-InfrastructureAsCode/blob/main/Part1-IntroductionToIaC.md)  
 
 1. Use the instructions to work through the workshop parts relevant to you (bicep or terraform).  Repeat as desired.
 
