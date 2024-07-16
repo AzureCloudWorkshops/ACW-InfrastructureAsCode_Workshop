@@ -1,5 +1,5 @@
-resource "azurerm_storage_account" "cm_stg_acct_env" {
-  name                     = var.storageAccountNameEnv
+resource "azurerm_storage_account" "iac_stg_acct_module" {
+  name                     = var.storageAccountNameFull
   resource_group_name      = var.resourceGroupName
   location                 = var.location
   account_tier             = "Standard"

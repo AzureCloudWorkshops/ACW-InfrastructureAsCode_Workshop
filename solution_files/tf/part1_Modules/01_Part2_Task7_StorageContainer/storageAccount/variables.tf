@@ -1,4 +1,4 @@
-variable "storageAccountNameEnv" {
+variable "storageAccountNameFull" {
     type = string
     nullable = false
 }

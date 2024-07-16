@@ -14,13 +14,14 @@ variable "location" {
     }
 }
 
-variable "storageAccountName" {
+
+variable "storageAccountNameBase" {
     type = string
     nullable = false
-    default = "cmstgacct"
+    default = "iacstg"
 
     validation {
-      condition = length(var.storageAccountName) > 3
+      condition = length(var.storageAccountNameBase) > 3
       error_message = "The storage account name should be at least 3 characters"
     }
 }
@@ -28,7 +29,7 @@ variable "storageAccountName" {
 variable "uniqueIdentifier" {
     type = string
     nullable = false
-    default = "20240109"
+    default = "20291231acw"
 
     validation {
       condition = length(var.uniqueIdentifier) == 11
@@ -42,8 +43,8 @@ variable "environment" {
     default = "dev"
 
     validation {
-      condition = contains(["dev","prod"], var.environment)
-      error_message = "The only valid values for environment are 'dev' and 'prod'"
+      condition = contains(["dev", "prod"], var.environment)
+      error_message = "The environment should be dev or prod"
     }
 }
 

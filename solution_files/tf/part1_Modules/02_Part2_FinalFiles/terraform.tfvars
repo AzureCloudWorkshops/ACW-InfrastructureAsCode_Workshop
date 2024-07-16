@@ -1,0 +1,6 @@
+resourceGroupName   = "iac-training-rg-modules"
+location            = "East US"
+storageAccountNameBase = "iacstg"
+uniqueIdentifier = "20291231acw"
+environment         = "dev"
+containerName       = "images"

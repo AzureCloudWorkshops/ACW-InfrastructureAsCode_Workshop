@@ -1,5 +1,0 @@
-resourceGroupName   = "iac-training-rg"
-location            = "East US"
-uniqueIdentifier    = "20240109sam"
-environment         = "dev"
-containerName       = "iac-training-storage-container"
