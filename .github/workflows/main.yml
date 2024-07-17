@@ -12,7 +12,7 @@ env:
   CURRENT_BRANCH: ${{ github.head_ref || github.ref_name }} 
   TEMPLATE: 'iac/some-bicep-or-terraform-file'
   PARAMETERS: 'iac/some-bicep-or-terraform-file.parameters.json'  
-  DEPLOYMENT_NAME: 'BicepDeployResources'
+  DEPLOYMENT_NAME: 'DeployArchitectureAndApplication'
   REGION: 'eastus'
 
 permissions:
