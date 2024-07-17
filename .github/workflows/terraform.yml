@@ -2,7 +2,7 @@ name: "Terraform Deploy Resources"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ mainnowayjose ]
   workflow_dispatch:
 
 env: 
