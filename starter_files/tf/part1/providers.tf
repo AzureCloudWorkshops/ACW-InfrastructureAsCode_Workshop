@@ -5,11 +5,7 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "UPDATE_ME_OR_IT_WONT_WORK"      
-    }
-    arm2tf = {
-      source  = "cloud-maker-ai/arm2tf"
-      version = "UPDATE_ME_OR_IT_WONT_WORK"
-    }    
+    }  
   }
 
   backend "azurerm" {
